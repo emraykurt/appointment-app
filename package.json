@@ -1,0 +1,14 @@
+{
+    "name": "randevu-sistemi",
+    "version": "1.0.0",
+    "engines": {
+      "node": "18.x"
+    },
+    "scripts": {
+      "start": "cd backend && npm start",
+      "heroku-postbuild": "cd backend && npm install"
+    },
+    "cacheDirectories": [
+      "backend/node_modules"
+    ]
+  }
